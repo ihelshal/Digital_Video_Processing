@@ -3,17 +3,17 @@
 Real-time video compression is computationally expensive due to the requirement of high compression efficiency.
 Video Processing  is an exciting, emerging area of the security and surveillance industry that offers solutions to the current problem of non-responsive surveillance. Complex algorithms look for specified changes in the video feed and then alert security personnel to threats so they can immediately intervene. The analytic process can be used for various purposes such as:  
 
-• motion detection of specific objects and movements such as a person running when everyone else is walking,  
-• object detection such as a bag left in a specific public area, 
-• piggybacking or tailgating in which an individual follows another person into a secure area, 
-• perimeter protection which sends an alert when a specific boundary is crossed. 
+1) motion detection of specific objects and movements such as a person running when everyone else is walking,  
+2) object detection such as a bag left in a specific public area, 
+3) piggybacking or tailgating in which an individual follows another person into a secure area, 
+4) perimeter protection which sends an alert when a specific boundary is crossed. 
             
 Video analytics offers the security market several benefits including: 
 
-• less dependence on human vigilance 
-• fewer personnel to monitor video feeds 
-• ability to respond to immediate threats 
-• ability to quickly search and retrieve specified security events.
+1) less dependence on human vigilance 
+2) fewer personnel to monitor video feeds 
+3) ability to respond to immediate threats 
+4) ability to quickly search and retrieve specified security events.
             
  The repository contains three folders which each on has an implementation for Video decoding/encoding blocks
  
@@ -61,3 +61,19 @@ Code also provided with IDCT function in order to compute the PSNR between the S
 2) Use 8x8 block.
 3) Reconstruct the images using Motion Compensation. 
 4) Compute PSNR between the Source Image and the Reconstructed Images.
+
+<figure>
+ <img src="3. Motion Estimation/Img of Window.jpg" width="380" alt="Combined Image" />
+ <figcaption>
+ <p></p> 
+    <p style="text-align: center;"> Image of Full Window Search</p> 
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="3. Motion Estimation/Img of Thee Step.jpg" width="380" alt="Combined Image" />
+ <figcaption>
+ <p></p> 
+    <p style="text-align: center;"> Image of Three Step Search</p> 
+ </figcaption>
+</figure>
